@@ -16,7 +16,7 @@ namespace GopFile
                     using (var data=File.OpenRead(file))
                     {
                         data.CopyTo(output);
-                        Console.WriteLine(output);
+                        Console.WriteLine(data);
                     }
                 }
             }
