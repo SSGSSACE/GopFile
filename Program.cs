@@ -9,6 +9,7 @@ namespace GopFile
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World!");
             string path = @"D:/BT C#/GopFile/FILE2/";
             string[] files = Directory.GetFiles(path, "*.csv", SearchOption.TopDirectoryOnly);
             // using (var output = File.Create(path + "output.csv"))
