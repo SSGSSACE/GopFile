@@ -9,9 +9,9 @@ namespace GopFile
             Console.WriteLine("Hello World!");
             string path = @"D:/BT C#/GopFile/FILE2/";
             string[] files = Directory.GetFiles(path, "*.csv", SearchOption.TopDirectoryOnly);
-            using (var output = File.Create(path + "output.csv"))
-            {
-                var data = File.ReadAllLines("20210719log - Copy1");
+            // using (var output = File.Create(path + "output.csv"))
+            // {
+                var data = File.ReadAllLines("../FILE2/20210719log - Copy1");
                 foreach (var file in data)
                 {
                     // using (var data=File.ReadAllLines(file))
@@ -20,7 +20,7 @@ namespace GopFile
                         Console.WriteLine(file);
                     // }
                 }
-            }
+            // }
         }
     }
 }
