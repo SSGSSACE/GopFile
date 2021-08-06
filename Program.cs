@@ -1,3 +1,4 @@
+// -*- coding: Shift_JIS -*-
 using System.Text;
 using System;
 using System.IO;
