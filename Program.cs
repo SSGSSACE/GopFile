@@ -18,7 +18,7 @@ namespace GopFile
                     // using (var data=File.ReadAllLines(file))
                     // {
                         // data.CopyTo(output);
-                        Console.WriteLine(file,false,Encoding.Default);
+                        Console.WriteLine(file,false,"UTF8Encoding");
                     // }
                 }
             // }
