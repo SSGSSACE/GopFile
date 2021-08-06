@@ -5,7 +5,6 @@ namespace GopFile
 {
     class Program
     {
-        static string a;
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
@@ -19,8 +18,7 @@ namespace GopFile
                 // using (var data=File.ReadAllLines(file))
                 // {
                 // data.CopyTo(output);
-                a = "HHHH";
-                Console.WriteLine(a.GetType());
+                Console.WriteLine(file.GetType());
                     // }
                 }
             // }
