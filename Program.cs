@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System.Text;
+using System;
 using System.IO;
 namespace GopFile
 {
@@ -17,7 +18,7 @@ namespace GopFile
                     // using (var data=File.ReadAllLines(file))
                     // {
                         // data.CopyTo(output);
-                        Console.WriteLine(file);
+                        Console.WriteLine(file,Encoding.UTF8);
                     // }
                 }
             // }
