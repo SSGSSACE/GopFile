@@ -5,6 +5,6 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="runtime.win.System.Text.Encoding.CodePages" Version="*"/>
-    <PackageReference Include="System.Text.Encoding.CodePages" Version="4.7.1"/>
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="5.0.0-preview.3.20214.6"/>
   </ItemGroup>
 </Project>
