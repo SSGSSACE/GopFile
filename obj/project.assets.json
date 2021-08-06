@@ -6,7 +6,7 @@
   "libraries": {},
   "projectFileDependencyGroups": {
     "net5.0": [
-      "System.Text.Encoding.CodePages >= 5.0.0-preview.1.20120.5",
+      "System.Text.Encoding.CodePages >= 5.0.0-rc.2.20475.5",
       "runtime.win.System.Text.Encoding.CodePages >= *"
     ]
   },
@@ -46,7 +46,7 @@
         "dependencies": {
           "System.Text.Encoding.CodePages": {
             "target": "Package",
-            "version": "[5.0.0-preview.1.20120.5, )"
+            "version": "[5.0.0-rc.2.20475.5, )"
           },
           "runtime.win.System.Text.Encoding.CodePages": {
             "target": "Package",
@@ -85,7 +85,7 @@
     {
       "code": "NU1100",
       "level": "Error",
-      "message": "Unable to resolve 'System.Text.Encoding.CodePages (>= 5.0.0-preview.1.20120.5)' for 'net5.0'.",
+      "message": "Unable to resolve 'System.Text.Encoding.CodePages (>= 5.0.0-rc.2.20475.5)' for 'net5.0'.",
       "libraryId": "System.Text.Encoding.CodePages",
       "targetGraphs": [
         "net5.0"
