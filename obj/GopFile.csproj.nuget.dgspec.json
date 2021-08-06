@@ -37,7 +37,7 @@
           "dependencies": {
             "System.Text.Encoding.CodePages": {
               "target": "Package",
-              "version": "[4.7.1, )"
+              "version": "[5.0.0-preview.3.20214.6, )"
             },
             "runtime.win.System.Text.Encoding.CodePages": {
               "target": "Package",

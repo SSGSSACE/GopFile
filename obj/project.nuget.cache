@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZXpKpGkrj1aGRAmvPzLCqHnUjDGVwkyFmbl9aT/H9dNR/fQ1nkgixghZnK14QoKFV+XlNv2o/Z+0T5Nhc0LHRg==",
+  "dgSpecHash": "8RIsuujJLxvQYX7iHTFFDmpeRnAfJ+mMAPjuZS8zJFTWPvBkicx9kOS+AXI2L37LUd8uiaQFdAH2ztvll6QzaQ==",
   "success": false,
   "projectFilePath": "D:\\BT C#\\GopFile\\GopFile.csproj",
   "expectedPackageFiles": [],
@@ -17,7 +17,7 @@
     {
       "code": "NU1100",
       "level": "Error",
-      "message": "Unable to resolve 'System.Text.Encoding.CodePages (>= 4.7.1)' for 'net5.0'.",
+      "message": "Unable to resolve 'System.Text.Encoding.CodePages (>= 5.0.0-preview.3.20214.6)' for 'net5.0'.",
       "libraryId": "System.Text.Encoding.CodePages",
       "targetGraphs": [
         "net5.0"
