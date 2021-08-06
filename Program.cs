@@ -18,7 +18,8 @@ namespace GopFile
                     // using (var data=File.ReadAllLines(file))
                     // {
                         // data.CopyTo(output);
-                        Console.WriteLine(typeof(int));
+                        args=
+                        Console.WriteLine(file.GetType());
                     // }
                 }
             // }
