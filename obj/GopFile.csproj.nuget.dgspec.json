@@ -19,6 +19,9 @@
         "originalTargetFrameworks": [
           "net5.0"
         ],
+        "sources": {
+          "https://www.nuget.org/api/v2": {}
+        },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",

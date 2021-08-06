@@ -1,24 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "8RIsuujJLxvQYX7iHTFFDmpeRnAfJ+mMAPjuZS8zJFTWPvBkicx9kOS+AXI2L37LUd8uiaQFdAH2ztvll6QzaQ==",
+  "dgSpecHash": "cwlluFzK6u2cNmnYJ+NPWMzscaMEaLvY3lXyH7MaFfhx92CQs+CxuPDOMGRm/wvilu/NrNLnZZY227FzJDaICg==",
   "success": false,
   "projectFilePath": "D:\\BT C#\\GopFile\\GopFile.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\quang\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0-preview.3.20214.6\\microsoft.netcore.platforms.5.0.0-preview.3.20214.6.nupkg.sha512",
+    "C:\\Users\\quang\\.nuget\\packages\\system.text.encoding.codepages\\5.0.0-preview.3.20214.6\\system.text.encoding.codepages.5.0.0-preview.3.20214.6.nupkg.sha512"
+  ],
   "logs": [
     {
-      "code": "NU1100",
+      "code": "NU1103",
       "level": "Error",
-      "message": "Unable to resolve 'runtime.win.System.Text.Encoding.CodePages (>= 0.0.0)' for 'net5.0'.",
+      "message": "Unable to find a stable package runtime.win.System.Text.Encoding.CodePages with version (>= 0.0.0)\r\n  - Found 1 version(s) in nuget.org [ Nearest version: 4.0.1-beta-23516 ]",
       "libraryId": "runtime.win.System.Text.Encoding.CodePages",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    },
-    {
-      "code": "NU1100",
-      "level": "Error",
-      "message": "Unable to resolve 'System.Text.Encoding.CodePages (>= 5.0.0-preview.3.20214.6)' for 'net5.0'.",
-      "libraryId": "System.Text.Encoding.CodePages",
       "targetGraphs": [
         "net5.0"
       ]
