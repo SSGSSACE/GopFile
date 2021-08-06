@@ -16,11 +16,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\BT C#\\GopFile\\GopFile.csproj",
+      "projectUniqueName": "D:\\BT C#\\GopFile\\GopFile.csproj",
       "projectName": "GopFile",
-      "projectPath": "d:\\BT C#\\GopFile\\GopFile.csproj",
+      "projectPath": "D:\\BT C#\\GopFile\\GopFile.csproj",
       "packagesPath": "C:\\Users\\quang\\.nuget\\packages\\",
-      "outputPath": "d:\\BT C#\\GopFile\\obj\\",
+      "outputPath": "D:\\BT C#\\GopFile\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\quang\\AppData\\Roaming\\NuGet\\NuGet.Config"
