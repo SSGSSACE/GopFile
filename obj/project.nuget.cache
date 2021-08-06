@@ -1,17 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "cwlluFzK6u2cNmnYJ+NPWMzscaMEaLvY3lXyH7MaFfhx92CQs+CxuPDOMGRm/wvilu/NrNLnZZY227FzJDaICg==",
-  "success": false,
+  "dgSpecHash": "mpu5DJnwelk+4N5GraY7XVGSFsqhZ/fEdwCdvgxgMgKrvEsxoaEGQpY4J2zNvWqGqsC+Ww2PaUsSy7Y/DvxBlg==",
+  "success": true,
   "projectFilePath": "D:\\BT C#\\GopFile\\GopFile.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\quang\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0-preview.3.20214.6\\microsoft.netcore.platforms.5.0.0-preview.3.20214.6.nupkg.sha512",
+    "C:\\Users\\quang\\.nuget\\packages\\runtime.win.system.text.encoding.codepages\\4.0.1-beta-23516\\runtime.win.system.text.encoding.codepages.4.0.1-beta-23516.nupkg.sha512",
     "C:\\Users\\quang\\.nuget\\packages\\system.text.encoding.codepages\\5.0.0-preview.3.20214.6\\system.text.encoding.codepages.5.0.0-preview.3.20214.6.nupkg.sha512"
   ],
   "logs": [
     {
-      "code": "NU1103",
-      "level": "Error",
-      "message": "Unable to find a stable package runtime.win.System.Text.Encoding.CodePages with version (>= 0.0.0)\r\n  - Found 1 version(s) in nuget.org [ Nearest version: 4.0.1-beta-23516 ]",
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'runtime.win.System.Text.Encoding.CodePages 4.0.1-beta-23516' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "runtime.win.System.Text.Encoding.CodePages",
       "targetGraphs": [
         "net5.0"

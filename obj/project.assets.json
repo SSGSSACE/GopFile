@@ -11,6 +11,12 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "runtime.win.System.Text.Encoding.CodePages/4.0.1-beta-23516": {
+        "type": "package",
+        "compile": {
+          "ref/dotnet/_._": {}
+        }
+      },
       "System.Text.Encoding.CodePages/5.0.0-preview.3.20214.6": {
         "type": "package",
         "dependencies": {
@@ -48,6 +54,23 @@
         "runtime.json",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "runtime.win.System.Text.Encoding.CodePages/4.0.1-beta-23516": {
+      "sha512": "u1dC0UnqaPIcX61BEnRiJILOskerQJeWlgc0lmZXb9sisKXZaVDihMNO5YoF1HCacDlIEGE5JpM+grrnRJzwNA==",
+      "type": "package",
+      "path": "runtime.win.system.text.encoding.codepages/4.0.1-beta-23516",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ref/dotnet/_._",
+        "runtime.win.system.text.encoding.codepages.4.0.1-beta-23516.nupkg.sha512",
+        "runtime.win.system.text.encoding.codepages.nuspec",
+        "runtimes/win/lib/dotnet5.4/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netcore50/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/win8/_._",
+        "runtimes/win/lib/wp8/_._",
+        "runtimes/win/lib/wpa81/_._"
       ]
     },
     "System.Text.Encoding.CodePages/5.0.0-preview.3.20214.6": {
@@ -95,7 +118,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "System.Text.Encoding.CodePages >= 5.0.0-preview.3.20214.6",
-      "runtime.win.System.Text.Encoding.CodePages >= *"
+      "runtime.win.System.Text.Encoding.CodePages >= 4.0.1-beta-23516"
     ]
   },
   "packageFolders": {
@@ -141,7 +164,7 @@
           },
           "runtime.win.System.Text.Encoding.CodePages": {
             "target": "Package",
-            "version": "[*, )"
+            "version": "[4.0.1-beta-23516, )"
           }
         },
         "imports": [
@@ -165,9 +188,10 @@
   },
   "logs": [
     {
-      "code": "NU1103",
-      "level": "Error",
-      "message": "Unable to find a stable package runtime.win.System.Text.Encoding.CodePages with version (>= 0.0.0)\r\n  - Found 1 version(s) in nuget.org [ Nearest version: 4.0.1-beta-23516 ]",
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'runtime.win.System.Text.Encoding.CodePages 4.0.1-beta-23516' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "runtime.win.System.Text.Encoding.CodePages",
       "targetGraphs": [
         "net5.0"
