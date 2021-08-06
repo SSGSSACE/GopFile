@@ -11,7 +11,7 @@ namespace GopFile
             string[] files = Directory.GetFiles(path, "*.csv", SearchOption.TopDirectoryOnly);
             // using (var output = File.Create(path + "output.csv"))
             // {
-                var data = File.ReadAllLines("../FILE2/20210719log - Copy1");
+                var data = File.ReadAllLines("D:/BT C#/GopFile/FILE2/20210719log - Copy1");
                 foreach (var file in data)
                 {
                     // using (var data=File.ReadAllLines(file))
