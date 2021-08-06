@@ -5,6 +5,7 @@ namespace GopFile
 {
     class Program
     {
+        static int a;
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
@@ -15,11 +16,11 @@ namespace GopFile
                 var data = File.ReadAllLines("D:/BT C#/GopFile/FILE2/20210719log - Copy1.csv");
                 foreach (var file in data)
                 {
-                    // using (var data=File.ReadAllLines(file))
-                    // {
-                        // data.CopyTo(output);
-                        args=
-                        Console.WriteLine(file.GetType());
+                // using (var data=File.ReadAllLines(file))
+                // {
+                // data.CopyTo(output);
+                a = 5;
+                Console.WriteLine(a.GetType());
                     // }
                 }
             // }
