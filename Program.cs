@@ -25,19 +25,19 @@ namespace ConsoleApp
         public static void Main(string[] args)
         {
             ////create a csv file
-            //string filePath = @"test.csv";
-            //string delimiter = ",";
-            //string[][] output = new string[][]{
-            //       new string[]{"Name", "Surname", "Age","Date of Birth","Place"},
-            //       new string[]{"Apple", "A", "10","1990/3/4","USA" },
-            //       new string[]{"Bob", "B", "11","1991/3/4","China" },
-            //       new string[]{"Cherry", "C", "12","1992/3/4","Japan" }
-            //   };
-            //int length = output.GetLength(0);
-            //StringBuilder sb = new StringBuilder();
-            //for (int index = 0; index < length; index++)
-            //    sb.AppendLine(string.Join(delimiter, output[index]));
-            //File.WriteAllText(filePath, sb.ToString());
+            string filePath = @"test.csv";
+            string delimiter = ",";
+            string[][] output = new string[][]{
+                  new string[]{"Name", "Surname", "Age","Date of Birth","Place"},
+                  new string[]{"Apple", "A", "10","1990/3/4","USA" },
+                  new string[]{"Bob", "B", "11","1991/3/4","China" },
+                  new string[]{"Cherry", "C", "12","1992/3/4","Japan" }
+              };
+            int length = output.GetLength(0);
+            StringBuilder sb = new StringBuilder();
+            for (int index = 0; index < length; index++)
+               sb.AppendLine(string.Join(delimiter, output[index]));
+            File.WriteAllText(filePath, sb.ToString());
 
             //comvert vsc to datatable
             var table = ConvertCSVtoDataTable("test.csv");
