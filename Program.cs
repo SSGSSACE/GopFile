@@ -2,7 +2,7 @@
 using System.Text;
 using System;
 using System.IO;
-using System.Text.Encodings;
+using System.Text.Encodings.Pages;
 namespace GopFile
 {
     class Program
