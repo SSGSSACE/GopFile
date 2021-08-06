@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BT C#\\GopFile\\GopFile.csproj": {}
+    "d:\\BT C#\\GopFile\\GopFile.csproj": {}
   },
   "projects": {
-    "D:\\BT C#\\GopFile\\GopFile.csproj": {
+    "d:\\BT C#\\GopFile\\GopFile.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BT C#\\GopFile\\GopFile.csproj",
+        "projectUniqueName": "d:\\BT C#\\GopFile\\GopFile.csproj",
         "projectName": "GopFile",
-        "projectPath": "D:\\BT C#\\GopFile\\GopFile.csproj",
+        "projectPath": "d:\\BT C#\\GopFile\\GopFile.csproj",
         "packagesPath": "C:\\Users\\quang\\.nuget\\packages\\",
-        "outputPath": "D:\\BT C#\\GopFile\\obj\\",
+        "outputPath": "d:\\BT C#\\GopFile\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\quang\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -34,6 +34,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "runtime.win.System.Text.Encoding.CodePages": {
+              "target": "Package",
+              "version": "[*, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
