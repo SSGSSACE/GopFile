@@ -11,13 +11,14 @@ namespace GopFile
             string[] files = Directory.GetFiles(path, "*.csv", SearchOption.TopDirectoryOnly);
             using (var output = File.Create(path + "output.csv"))
             {
-                foreach (var file in files)
+                var data = File.ReadAllLines("20210719log - Copy1");
+                foreach (var file in data)
                 {
-                    using (var data=File.OpenRead(file))
-                    {
-                        data.CopyTo(output);
+                    // using (var data=File.ReadAllLines(file))
+                    // {
+                        // data.CopyTo(output);
                         Console.WriteLine(data);
-                    }
+                    // }
                 }
             }
         }
